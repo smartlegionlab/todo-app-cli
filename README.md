@@ -14,7 +14,7 @@ Console TODO app.
 
 ## What's new:
 
-- Architectural code refactoring. Complete redesign. In progress.
+- Architectural code refactoring.
 - The code has been rewritten using the MVC (Model-View-Controller) architecture.
 - Bugs fixed.
 - The user interface has been simplified and improved.
