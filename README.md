@@ -4,10 +4,11 @@ Console TODO app.
 
 ---
 
-## Other to-do list apps:
+## Other ToDO apps:
 
 - [Desktop ToDo app](https://github.com/smartlegionlab/todo_app_desktop)
-- [Telegram Bot ToDo app](https://github.com/smartlegionlab/todo_app_tg_bot) 
+- [Telegram Bot ToDo app](https://github.com/smartlegionlab/todo_app_tg_bot) | [Use](https://t.me/smarttodoappbot)
+- [Web ToDo app](https://github.com/smartlegionlab/todo_app_web_django)
 
 ---
 
