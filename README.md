@@ -1,4 +1,4 @@
-# Console ToDo app <sup>v0.2.0</sup>
+# Console TODo App <sup>v0.2.1</sup>
 
 Console TODO app.
 
@@ -6,9 +6,9 @@ Console TODO app.
 
 ## Other ToDO apps:
 
-- [Desktop ToDo app](https://github.com/smartlegionlab/todo_app_desktop)
-- [Telegram Bot ToDo app](https://github.com/smartlegionlab/todo_app_tg_bot) | [Use](https://t.me/smarttodoappbot)
-- [Web ToDo app](https://github.com/smartlegionlab/todo_app_web_django)
+- [Desktop ToDo app](https://github.com/smartlegionlab/smart-todo-app-desktop)
+- [Telegram Bot ToDo app](https://github.com/smartlegionlab/todo-app-tg-bot) | [Use](https://t.me/smarttodoappbot)
+- [Web ToDo app](https://github.com/smartlegionlab/todo-app-django)
 
 ---
 
@@ -37,7 +37,7 @@ Console TODO app.
 
 ## Images:
 
-![logo](https://github.com/smartlegionlab/todo_app_cli/raw/master/data/images/todo_app_cli.png)
+![logo](https://github.com/smartlegionlab/todo-app-cli/raw/master/data/images/todo_app_cli.png)
 
 ---
 
@@ -60,7 +60,7 @@ Console TODO app.
     --------------------------------------------------------
     Licensed under the terms of the BSD 3-Clause License
     (see LICENSE for details).
-    Copyright © 2024, A.A. Suvorov
+    Copyright © 2024-2025, A.A. Suvorov
     All rights reserved.
     --------------------------------------------------------
 
