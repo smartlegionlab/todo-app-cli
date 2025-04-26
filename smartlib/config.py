@@ -12,4 +12,4 @@ class Config:
     name = 'Console ToDO App'
     url = 'https://github.com/smartlegionlab/'
     copyright_ = 'Copyright © 2024-2025, A.A. Suvorov'
-    help_url = 'https://github.com/smartlegionlab/todo_app_cli/'
+    help_url = 'https://github.com/smartlegionlab/todo-app-cli/'
