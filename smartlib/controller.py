@@ -19,6 +19,9 @@ class TaskController:
         task = Task(name=name)
         self.task_database.add_task(task)
 
+    def clear_all_tasks(self):
+        self.repo.delete_all_tasks()
+
     def update_task(self, task):
         return self.task_database.update_task(task)
 

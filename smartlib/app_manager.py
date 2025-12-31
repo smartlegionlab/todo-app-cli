@@ -33,6 +33,8 @@ class AppManager:
                 self.show_tasks(task_type='active')
             elif cmd == '3':
                 self.show_tasks(task_type='completed')
+            elif cmd == '4':
+                self.clear_all_tasks()
             elif cmd == '0':
                 break
             else:
@@ -44,6 +46,16 @@ class AppManager:
         self.controller.add_task(name)
         self.view.show_message('Task added!')
         self.view.press_enter_to_continue()
+
+    def clear_all_tasks(self):
+        confirm_flag = self.view.confirm_action()
+        if confirm_flag:
+            self.controller.clear_all_tasks()
+            self.view.show_message('All tasks have been deleted.')
+            self.view.press_enter_to_continue()
+        else:
+            self.view.show_message('Action canceled!')
+            self.view.press_enter_to_continue()
 
     def show_tasks(self, task_type):
         while True:
