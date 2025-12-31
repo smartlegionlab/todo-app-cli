@@ -35,6 +35,10 @@ class TaskDatabase:
                 INSERT INTO tasks (id, name, completed) VALUES (?, ?, ?)
             ''', (task.id, task.name, task.completed))
 
+    def clear_all_tasks(self):
+        self.session.query(self.Task).delete()
+        self.session.commit()
+
     def get_completed_tasks(self):
         cursor = self.connection.cursor()
         cursor.execute('SELECT id, name, completed FROM tasks WHERE completed')
