@@ -1,13 +1,13 @@
 # --------------------------------------------------------
 # Licensed under the terms of the BSD 3-Clause License
 # (see LICENSE for details).
-# Copyright © 2024-2025, A.A. Suvorov
+# Copyright © 2026, Alexander Suvorov
 # All rights reserved.
 # --------------------------------------------------------
 # https://github.com/smartlegionlab/
 # --------------------------------------------------------
-from smartlib.config import Config
-from smartlib.printer import SmartPrinter
+from core.config import Config
+from core.printer import SmartPrinter
 
 
 class TaskView:
