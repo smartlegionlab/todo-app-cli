@@ -49,7 +49,7 @@ class TaskView:
     def get_task_name(self):
         while True:
             self.printer.print_center(text='Task name:')
-            name = input('Name: ')
+            name = input('Name: ').strip()
             if not name:
                 self.show_error(text='Error! Name cannot be empty.')
                 continue
